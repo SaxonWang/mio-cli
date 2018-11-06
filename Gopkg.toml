@@ -28,3 +28,7 @@
 [prune]
   go-tests = true
   unused-packages = true
+
+[[constraint]]
+  version = "v0.10.2"
+  name = "github.com/hidevopsio/hiboot"

@@ -77,31 +77,16 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:6dba310881a834c733c018c16f13947de0eed714930e9bd5903f4b68901c291e"
+  digest = "1:bd62e55f8091908560bcd0634bbabdd0336ee67092c76c4f3bf432f0da18e2a5"
   name = "github.com/hidevopsio/hiboot"
   packages = [
     "pkg/app",
     "pkg/app/cli",
-    "pkg/at",
-    "pkg/factory",
-    "pkg/factory/autoconfigure",
-    "pkg/factory/depends",
-    "pkg/factory/instantiate",
-    "pkg/inject",
     "pkg/log",
-    "pkg/system",
-    "pkg/system/types",
-    "pkg/utils/cmap",
-    "pkg/utils/gotest",
-    "pkg/utils/io",
-    "pkg/utils/mapstruct",
-    "pkg/utils/reflector",
-    "pkg/utils/replacer",
-    "pkg/utils/str",
   ]
   pruneopts = "UT"
-  revision = "67bc16b5a12d5d1db1503461c1c3512394714bc7"
-  version = "v0.9.9"
+  revision = "e4b6cdd5b00394e4d583cc81bc4eb8289b5a947a"
+  version = "v0.10.2"
 
 [[projects]]
   digest = "1:870d441fe217b8e689d7949fef6e43efbc787e50f200cb1e70dbca9204a1d6be"
@@ -420,6 +405,32 @@
   packages = ["."]
   pruneopts = "UT"
   revision = "5420a8b6744d3b0345ab293f6fcba19c978f1183"
+
+[[projects]]
+  digest = "1:ea7d86c854e02e429a5c476758d310860be97c91e8cabd9689d407599cc436bb"
+  name = "hidevops.io/hiboot"
+  packages = [
+    "pkg/app",
+    "pkg/at",
+    "pkg/factory",
+    "pkg/factory/autoconfigure",
+    "pkg/factory/depends",
+    "pkg/factory/instantiate",
+    "pkg/inject",
+    "pkg/log",
+    "pkg/system",
+    "pkg/system/types",
+    "pkg/utils/cmap",
+    "pkg/utils/gotest",
+    "pkg/utils/io",
+    "pkg/utils/mapstruct",
+    "pkg/utils/reflector",
+    "pkg/utils/replacer",
+    "pkg/utils/str",
+  ]
+  pruneopts = "UT"
+  revision = "e4b6cdd5b00394e4d583cc81bc4eb8289b5a947a"
+  version = "v0.10.2"
 
 [solve-meta]
   analyzer-name = "dep"
